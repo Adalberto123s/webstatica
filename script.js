@@ -38,15 +38,8 @@ function executeFunction(file, resultText = '')  // Define una función que reci
 
    script.onload = () => // Define qué hacer cuando el archivo se haya cargado correctamente
    {
-      if (file === 'function1.js')       // Comprueba si el archivo cargado es "function1.js"
-      {  ejecutarOperacionesLogicas();   // Llama a la función principal definida en "function1.js"
-      }
-
-      if (file === 'function2.js')       // Comprueba si el archivo cargado es "function2.js"
-      {   ejecutarConcatenacion();       // Llama a la función principal definida en "function2.js"
-      }
-
-      // Puedes añadir más condiciones para otros archivos aquí
+    //ejecutar la funcion principal del script
+    ini()
    };
 
     document.body.appendChild(script); // Añade el elemento <script> al <body> para cargarlo dinámicamente

@@ -1,4 +1,5 @@
-function ejecutarOperacionesLogicas() 
+//ejecuta las operaciones logicas
+function ini() 
 {
     let a = parseInt(prompt("Ingrese Primer Numero..."));
     let b = parseInt(prompt("Ingrese Segundo Numero..."));

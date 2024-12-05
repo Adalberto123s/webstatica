@@ -1,4 +1,5 @@
-function ejecutarConcatenacion() 
+//Ejecuta la concatenacion de nombre y apellido
+function ini() 
 {
     let cadena1 = prompt("Ingrese su Nombre..");
     let cadena2 = prompt("Ingrese su Apellido..");
